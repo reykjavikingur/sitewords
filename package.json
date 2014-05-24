@@ -1,0 +1,34 @@
+{
+  "name": "sitewords",
+  "description": "Reverse search engine to report relevance by keywords on web pages.",
+  "version": "0.0.1",
+  "author": "Andrew Strader",
+  "private": true,
+  "dependencies": {
+    "debug": "*",
+    "async": "*",
+    "cheerio": "*",
+    "errorhandler": "*",
+    "static-favicon": "*",
+    "body-parser": "*",
+    "compression": "*",
+    "morgan": "*",
+    "validator": "*",
+    "express": "~4.x.x",
+    "jade": "*",
+    "mongoose": "*",
+    "node_hash": "*",
+    "regexp-quote": "*",
+    "xregexp": "*",
+    "stringify-object": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "supertest": "*"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --recursive"
+  }
+}
