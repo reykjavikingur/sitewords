@@ -1,0 +1,7 @@
+extends errorLayout
+
+block content
+	h1!= title
+	h2!= status
+		em!= message
+	div#stacktrace!= stack

@@ -9,7 +9,7 @@
     "async": "*",
     "cheerio": "*",
     "errorhandler": "*",
-    "static-favicon": "*",
+    "serve-favicon": "*",
     "body-parser": "*",
     "compression": "*",
     "morgan": "*",
